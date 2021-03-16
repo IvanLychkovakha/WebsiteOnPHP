@@ -1,0 +1,108 @@
+.profile-edit-btn{
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+.avatar {
+ width: 350px;
+ height: 350px;
+}
+.thumbnail
+{
+  margin-bottom: 30px;
+  padding: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.item.list-group-item
+{
+  float: none;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 1rem;
+  border: 0;
+}
+.item.list-group-item .img-event {
+  float: left;
+  width: 30%;
+}
+
+.item.list-group-item .list-group-image
+{
+  margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+  margin-bottom: 0px;
+  display: inline-block;
+}
+.item.list-group-item .caption
+{
+  float: left;
+  width: 70%;
+  margin: 0;
+}
+ #mainbody {
+  margin-left: 5%;
+}
+.gallery-wrap .img-big-wrap img {
+height: 350px;
+width: 470px;
+
+margin-top: 30px;
+
+display: inline-block;
+}
+.pagination>li>a { border-radius: 50% !important;margin: 0 5px;}
+.popup-overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 100;
+}
+/* Основные стили для всплывающего окна */
+.popWindow{
+  display: none;
+background: #f8f9fa;
+  width: 90%;
+  max-width: 720px;
+  padding: 40px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -360px;
+  margin-top: -470px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(18, 17, 12, 0.5);
+}
+/* Стили для адаптивности всплывающего окна */
+@media only screen and (max-width : 800px) {
+  .popWindow {
+    margin-left: -45%;
+  }
+}
+/* Кнопка закрыть всплывающее окно */
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #999;
+  padding: 10px;
+}
