@@ -1,4 +1,3 @@
-# WebsiteOnPHP
 
 ## Building the program
 
